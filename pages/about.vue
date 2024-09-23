@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Home</h2>
+    <h2>About</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
       voluptatum in. Quaerat corporis deserunt adipisci doloribus esse ducimus
