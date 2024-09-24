@@ -1,6 +1,11 @@
 <template>
   <div>
-    <ProductDetails :product="product as Product" />
+    <Head>
+      <Title>Nuxt Dojo | {{ product?.title }}</Title>
+      <Meta name="description" :content="product?.description" />
+    </Head>
+
+    <ProductDetails :product="product as Product"></ProductDetails>
   </div>
 </template>
 
