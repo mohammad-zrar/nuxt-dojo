@@ -11,10 +11,13 @@
       totam sit nulla ex asperiores nesciunt, ipsam accusantium perspiciatis
       quasi?
     </p>
+    <pre>{{ data }}</pre>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { data } = await useFetch("/api/currency/GBP");
+</script>
 
 <style scoped>
 h2 {
